@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="raporlananlar" msprop:Generator_TableClassName="raporlananlarDataTable" msprop:Generator_TableVarName="tableraporlananlar" msprop:Generator_TablePropName="raporlananlar" msprop:Generator_RowDeletingName="raporlananlarRowDeleting" msprop:Generator_RowChangingName="raporlananlarRowChanging" msprop:Generator_RowEvHandlerName="raporlananlarRowChangeEventHandler" msprop:Generator_RowDeletedName="raporlananlarRowDeleted" msprop:Generator_UserTableName="raporlananlar" msprop:Generator_RowChangedName="raporlananlarRowChanged" msprop:Generator_RowEvArgName="raporlananlarRowChangeEvent" msprop:Generator_RowClassName="raporlananlarRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RaporID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnRaporID" msprop:Generator_ColumnPropNameInRow="RaporID" msprop:Generator_ColumnPropNameInTable="RaporIDColumn" msprop:Generator_UserColumnName="RaporID" type="xs:int" />
+              <xs:element name="IMEINO" msprop:Generator_ColumnVarNameInTable="columnIMEINO" msprop:Generator_ColumnPropNameInRow="IMEINO" msprop:Generator_ColumnPropNameInTable="IMEINOColumn" msprop:Generator_UserColumnName="IMEINO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MARKA" msprop:Generator_ColumnVarNameInTable="columnMARKA" msprop:Generator_ColumnPropNameInRow="MARKA" msprop:Generator_ColumnPropNameInTable="MARKAColumn" msprop:Generator_UserColumnName="MARKA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODEL" msprop:Generator_ColumnVarNameInTable="columnMODEL" msprop:Generator_ColumnPropNameInRow="MODEL" msprop:Generator_ColumnPropNameInTable="MODELColumn" msprop:Generator_UserColumnName="MODEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CALINMATARIHI" msprop:Generator_ColumnVarNameInTable="columnCALINMATARIHI" msprop:Generator_ColumnPropNameInRow="CALINMATARIHI" msprop:Generator_ColumnPropNameInTable="CALINMATARIHIColumn" msprop:Generator_UserColumnName="CALINMATARIHI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EKLENMETARIHI" msprop:Generator_ColumnVarNameInTable="columnEKLENMETARIHI" msprop:Generator_ColumnPropNameInRow="EKLENMETARIHI" msprop:Generator_ColumnPropNameInTable="EKLENMETARIHIColumn" msprop:Generator_UserColumnName="EKLENMETARIHI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GARANTIDURUMU" msprop:Generator_ColumnVarNameInTable="columnGARANTIDURUMU" msprop:Generator_ColumnPropNameInRow="GARANTIDURUMU" msprop:Generator_ColumnPropNameInTable="GARANTIDURUMUColumn" msprop:Generator_UserColumnName="GARANTIDURUMU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="URUNSAHIBI" msprop:Generator_ColumnVarNameInTable="columnURUNSAHIBI" msprop:Generator_ColumnPropNameInRow="URUNSAHIBI" msprop:Generator_ColumnPropNameInTable="URUNSAHIBIColumn" msprop:Generator_UserColumnName="URUNSAHIBI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ILETISIM" msprop:Generator_ColumnVarNameInTable="columnILETISIM" msprop:Generator_ColumnPropNameInRow="ILETISIM" msprop:Generator_ColumnPropNameInTable="ILETISIMColumn" msprop:Generator_UserColumnName="ILETISIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BULUNDU" msprop:Generator_ColumnVarNameInTable="columnBULUNDU" msprop:Generator_ColumnPropNameInRow="BULUNDU" msprop:Generator_ColumnPropNameInTable="BULUNDUColumn" msprop:Generator_UserColumnName="BULUNDU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BULUNMATARIHI" msprop:Generator_ColumnVarNameInTable="columnBULUNMATARIHI" msprop:Generator_ColumnPropNameInRow="BULUNMATARIHI" msprop:Generator_ColumnPropNameInTable="BULUNMATARIHIColumn" msprop:Generator_UserColumnName="BULUNMATARIHI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:raporlananlar" />
+      <xs:field xpath="mstns:RaporID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
